@@ -5,7 +5,6 @@
 }
 
 body {
-    
     margin: 100px;
 }
 
@@ -44,8 +43,8 @@ h1 {
 
 .container-conteudo-texto p {
     font-size: 24px;
-    margin-top: 20px;
-    margin-bottom: 35px;
+    margin-top: 32px;
+    margin-bottom: 32px;
     width: 497px;
     height: 96px;
 }
@@ -59,7 +58,6 @@ h1 {
     background-color: #333333;
     color: white;
     font-weight: bold;
-    
 }
 
 
@@ -76,8 +74,7 @@ h1 {
     top: 706px;
     height: 326px;
     width: 1311px;
-    margin-left: 150px;
-    margin-top: 150px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     gap: 25px;
@@ -86,12 +83,12 @@ h1 {
 .container-boxes h2 {
     font-size: 32px;
     margin-bottom: 10px;
-    margin-top: 30px;
+    margin-top: 16px;
 }
 
 .container-boxes p {
     font-size: 18px;
-    margin-top: 25px;
+    margin-top: 8px;
 }
 
 .numero-icone {
@@ -106,9 +103,10 @@ h1 {
 }
 
 .numero-icone img {
-    width: 35px;
-    height: 35px;
+    width: 32px;
+    height: 32px;
     border-radius: 70px;
+    object-fit: cover;
 }
 
 .box-youtube {
