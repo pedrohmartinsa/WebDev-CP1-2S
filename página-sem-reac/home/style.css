@@ -4,6 +4,10 @@
     font-family: "Roboto Mono";
 }
 
+#home {
+    text-decoration: underline;
+}
+
 body {
     margin: 100px;
 }
@@ -68,6 +72,7 @@ header {
     background-color: #333333;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 
 
