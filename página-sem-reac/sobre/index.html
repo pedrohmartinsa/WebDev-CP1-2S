@@ -10,68 +10,79 @@
     <title>PLATAFORMA DE VÍDEOS (Sobre)</title>
 </head>
 <body>
-    <div class="container-principal">
-        <header>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">Sobre</a>
-                <a href="#">Contato</a>
-            </nav>
-        </header>
-        <div class="container">
-            <div class="container-conteudo-texto">
-                <h1>Bem-vindo à revolução dos vídeos!</h1>
-                <p>Somos uma startup com o objetivo de facilitar a produção de conteúdo em larga escala com qualidade profissional, capaz de atingir uma audiência de milhões de seguidores.</p>
-                <button>Baixe o app</button>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#" id="sobre">Sobre</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="texto">
+            <h1>Bem-vindo à revolução dos vídeos!</h1>
+            <p>Somos uma startup com o objetivo de facilitar a produção de conteúdo em larga escala com qualidade profissional, capaz de atingir uma audiência de milhões de seguidores.</p>
+            <button>Baixe o app</button>
+        </div>
+        <div class="telas">
+            <div class="tela1">
+                <img src="/img/tela1.png" alt="Imagem de um celular com o editor de video aberto">
             </div>
-            <div class="container-imagem">
-                <img class="imagme1" src="/img/tela1.png" alt="tela do celular ovo">
-                <img class = "imagem2" src="/img/tela2.png" alt="tela do celular sucesso">
+            <div class="tela2">
+                <img src="/img/tela2.png" alt="Imagem de um celular mostrando que a edição do video foi um sucesso">
             </div>
         </div>
-        <div class="container-planos">
-            <h1>Planos</h1>
-            <div class="container-planos-boxes">
-                <div class="container-planos-boxes1">
-                    <div class="container-planos-boxes1-titulo"> 
-                        <h1>Individual</h1>
-                    </div>
+    </main>
 
-                    <div class="container-planos-boxes1-conteudo">
-                        <p>1 Usuário</p>
-                        <button>10 vídeos <span class="rs">R$<span class="valor">15</span></span> </button>
-                    </div>
-                    
-                    <div class="container-planos-boxes1-botao">
-                        <button>Cadastrar</button>
-                    </div>
+    <section class="planos">
+        <h2>Planos</h2>
 
+        <div class="cards">
+            <div class="card">
+                <div class="card-top card-top-individual">
+                    <p>Individual</p>
                 </div>
+                <div class="card-middle">
+                    <div class="preco-usuario preco-usuario-individual">
+                        <p>1 usuário</p>
+                        <select name="videos" id="videos">
+                            <option>10 vídeos R$15</option>
+                        </select>
+                    </div>
+                    <button class="card-button card-button-individual">Cadastrar</button>
+                </div>
+            </div>
 
-                <div class="container-planos-boxes2">
-                    
-                    <h1>Profissional - Times</h1>
-
-                    <div class="container-planos-boxes2-conteudo1">
+            <div class="card">
+                <div class="card-top">
+                    <p>Profissional - Times</p>
+                </div>
+                <div class="card-middle">
+                    <div class="preco-usuario">
                         <p>1-10 Usuários</p>
-                        <button>Vídeos Ilimitados<span class="rs">R$<span class="valor">40</span></span> </button>
-                    </div>
+                        <select name="videos" id="videos">
+                            <option>Vídeos ilimitados R$40</option>
+                        </select>
 
-                    <div class="container-planos-boxes2-conteudo2">
-                        <p>10+ Usuários</p>
-                        <button>Vídeos Ilimitados<span class="rs">R$<span class="valor">20</span></span> </button>
+                        <p>+10 Usuários</p>
+                        <select name="videos" id="videos">
+                            <option>Vídeos ilimitados R$20</option>
+                        </select>
                     </div>
-
-                    <button>Cadastrar</button>
+                    <button class="card-button">Cadastrar</button>
                 </div>
+            </div>
 
-                <div class="container-planos-boxes3">
-                    <h1>Corporativo</h1>
-                    <img src="/img/mulherecelular.png" alt="mulero do lado do celular">
-                    <button>Entre em contato</button>
+            <div class="card">
+                <div class="card-top">
+                    <p>Corporativos</p>
+                </div>
+                <div class="card-middle">
+                    <img src="/img/mulherecelular.png" alt="Mulher apontando um celular maior que ela">
+                    <button class="card-button">Entre em contato</button>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </body>
 </html>
