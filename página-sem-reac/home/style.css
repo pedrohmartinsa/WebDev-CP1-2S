@@ -9,6 +9,11 @@ body {
     margin: 100px;
 }
 
+.container-principal {
+    display: flex;
+    flex-direction:column;
+}
+/* =======================================================Página principal===================================================================================================*/
 header nav {
     display: flex;
     justify-content: center;
@@ -25,6 +30,11 @@ header nav a {
 
 h1 {
     font-size: 60px;
+    color: #333333;
+}
+
+header {
+    color: #333333;
 }
 
 .container-conteudo {
@@ -69,7 +79,7 @@ h1 {
     height: 469px;
 }
 
-/* ========================================================================================================================================================================================*/
+/* ===============================================================================Boxes da página================================================================================*/
 
 
 .container-boxes {
@@ -119,12 +129,20 @@ h1 {
     padding: 16px 34px 16px 34px;
 }
 
+.box-youtube h2 {
+    color: #333333;
+}
+
 .box-tiktok {
     background-color: #F9EB98;
     border-radius: 16px;
     width: 309px;
     height: 326px;
     padding: 16px 34px 16px 34px;
+}
+
+.box-tiktok h2 {
+    color: #333333;
 }
 
 .box-facebook {
@@ -135,6 +153,10 @@ h1 {
     padding: 16px 34px 16px 34px;
 }
 
+.box-facebook h2 {
+    color: #333333;
+}
+
 .box-instagram {
     background-color: #6975E8;
     border-radius: 16px;
@@ -142,3 +164,11 @@ h1 {
     height: 326px;
     padding: 16px 34px 16px 34px;
 }
+
+.box-instagram h2 {
+    color: #333333;
+}
+
+
+/*==============================================================Página 2====================================================================================== */
+

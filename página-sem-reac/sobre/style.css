@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Mono";
+}
+
+body {
+    
+    margin: 100px;
+}
+
+.container-principal {
+    display: flex;
+    flex-direction:column;
+}
+/* =======================================================Página principal===================================================================================================*/
+.container-principal header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 46px;
+}
+header nav a {
+    font-size: 28px;
+    width: 116px;
+    height: 42px;
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 60px;
+    color: #333333;
+}
+
+header {
+    color: #333333;
+}
+
+/*=================================================Conteúdo principal============================================================= */
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    margin-top: 40px;
+}
+
+
+.container-conteudo-texto {
+    width: 577px;
+    height: 448px;
+    left: 64px;
+    top: 151px;
+    margin-right: 120px;
+
+}
+
+.container-conteudo-texto h1{
+    font-size: 60px;
+    color: #333333;
+    margin-bottom: 40px;
+}
+
+.container-conteudo-texto p {
+    height: 96px;
+    width: 497px;
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+.container-conteudo-texto button {
+    width: 297px;
+    height: 66px;
+    border-radius: 40px;
+    padding: 24px 56px 50px 56px;
+    font-size: 21px;
+    background-color: #333333;
+    color: white;
+    font-weight: bold;
+}
+
+.container-imagem img {
+    width: 216px;
+    height: 469px;
+    border-radius: 30px;
+}
+
+
+
+
+/*==================================================================================Planos============================================================ */
+
+.container-planos h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.container-planos {
+    background-color: #F4F2F2;
+    width: 100%;
+    margin-top: 100px;
+}
+.container-planos-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.container-planos-boxes1 {
+    background-color: #FFFFFF;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    
+}
+
+.container-planos-boxes1 h1 {
+    color: #131925;
+    font-size: 15px;
+}
+
+.container-planos-boxes1-titulo {
+    background-color: #6975E8;
+    width: 240px;
+    height: 74px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.container-planos-boxes1-conteudo {
+
+}
+
+.container-planos-boxes1-conteudo  p {
+    font-size: 12px;
+    color: #8790A3;
+}
+
+.container-planos-boxes1-conteudo button {
+    width: 113px;
+    height: 24px;
+    font-size: 12px;
+    background-color: #FFFFFF;
+    color: #131925;
+    border-width: 1px;
+    border-color: #E4E4E4;
+    border-radius: 10px;
+}
+
+.container-planos-boxes1-botao {
+    
+}
+
+.container-planos-boxes1-botao button {
+    width: 225px;
+    height: 34px;
+    color: #FFFFFF;
+    background-color: #6975E8;
+    border-radius: 6px;
+}
+
+
+    
