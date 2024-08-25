@@ -1,0 +1,86 @@
+.container-boxes {
+    top: 706px;
+    height: 326px;
+    width: 1311px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.container-boxes h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    margin-top: 16px;
+}
+
+.container-boxes p {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.numero-icone {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.numero-icone h1 {
+    font-size: 64px;
+    color: white;
+}
+
+.numero-icone img {
+    width: 32px;
+    height: 32px;
+    border-radius: 70px;
+    object-fit: cover;
+}
+
+.box-youtube {
+    background-color: #F1C2B0;
+    border-radius: 16px;
+    width: 309px;
+    height: 326px;
+    padding: 16px 34px 16px 34px;
+}
+
+.box-youtube h2 {
+    color: #333333;
+}
+
+.box-tiktok {
+    background-color: #F9EB98;
+    border-radius: 16px;
+    width: 309px;
+    height: 326px;
+    padding: 16px 34px 16px 34px;
+}
+
+.box-tiktok h2 {
+    color: #333333;
+}
+
+.box-facebook {
+    background-color: #C0D9DD;
+    border-radius: 16px;
+    width: 309px;
+    height: 326px;
+    padding: 16px 34px 16px 34px;
+}
+
+.box-facebook h2 {
+    color: #333333;
+}
+
+.box-instagram {
+    background-color: #6975E8;
+    border-radius: 16px;
+    width: 309px;
+    height: 326px;
+    padding: 16px 34px 16px 34px;
+}
+
+.box-instagram h2 {
+    color: #333333;
+}

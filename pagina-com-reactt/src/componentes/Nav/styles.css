@@ -1,0 +1,13 @@
+.header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 46px;
+}
+.link {
+    font-size: 28px;
+    width: 116px;
+    height: 42px;
+    color: black;
+    text-decoration: none;
+}

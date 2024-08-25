@@ -1,0 +1,46 @@
+h1 {
+    font-size: 60px;
+    color: #333333;
+}
+
+.container-conteudo {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-conteudo-texto {
+    width: 577px;
+    height: 374px;
+    top: 151px;
+    left: 64px;
+    gap: 32px;
+}
+
+.container-conteudo-texto p {
+    font-size: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 497px;
+    height: 96px;
+}
+
+.container-conteudo-texto button {
+    width: 297px;
+    height: 66px;
+    border-radius: 40px;
+    padding: 24px 56px 50px 56px;
+    font-size: 21px;
+    background-color: #333333;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.container-conteudo-img img{
+    margin-left: 100px;
+    width: 651px;
+    height: 469px;
+}
