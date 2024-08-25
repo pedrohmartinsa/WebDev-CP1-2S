@@ -1,0 +1,118 @@
+.planos {
+    min-height: 564px;
+    background-color: #F4F2F2;
+
+    margin-left: -65px;
+    margin-right: -140px;
+}
+
+.planos h2 {
+    font-size: 28px;
+    font-weight: 400;
+
+    text-align: center;
+
+    margin: 0 auto;
+    padding: 34px 0 23px 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.card {
+    width: 240px;
+    height: 389px;
+
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+    background-color: white;
+
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-top {
+    height: 74px;
+
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+    border-bottom: 2px #F4F2F2 solid;
+}
+
+.card-top p {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    padding: 25px;
+}
+
+.card-top-individual {
+    background-color: #6975E8;
+    border: none;
+}
+
+.card-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 300px;
+}
+
+.card-middle img {
+    width: 120px;
+    height: 114px;
+
+    margin: 71px 62px 0 62px;
+}
+
+.preco-usuario p {
+    font-size: 12px;
+    margin: 23px 0 9px 16px;
+
+    color: #8790A3;
+}
+
+.preco-usuario select {
+    width: 225px;
+    height: 32px;
+
+    border: 1px #E4E4E4 solid;
+    border-radius: 40px;
+
+    margin: 0 7px;
+}
+
+.preco-usuario-individual select {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+}
+
+.card-button {
+    width: 225px;
+    height: 34px;
+
+    font-size: 14px;
+    font-weight: 700;
+
+    border: 1px black solid;
+    border-radius: 6px;
+
+    background-color: white;
+    cursor: pointer;
+
+    margin: 0 7px;
+}
+
+.card-button-individual {
+    border: none;
+
+    background-color: #6975E8;
+    color: white;
+}

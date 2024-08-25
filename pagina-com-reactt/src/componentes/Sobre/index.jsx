@@ -1,6 +1,12 @@
+import Main from "./Main";
+import Planos from "./Planos";
+import './styles.css'
 function Sobre() {
     return ( 
-        <h1>bbbbbb</h1>
+        <body>
+            <Main/>
+            <Planos/>
+        </body>
      );
 }
 

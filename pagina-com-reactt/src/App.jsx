@@ -1,7 +1,6 @@
 import './App.css'
-import Home from './componentes/Home'
-import Nav from './componentes/Nav'
 import { Outlet } from 'react-router-dom'
+import Nav from './componentes/Nav'
 
 
 function App() {

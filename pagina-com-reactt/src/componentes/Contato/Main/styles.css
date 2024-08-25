@@ -1,0 +1,88 @@
+main {
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+
+    margin-top: 96px;
+}
+
+.text {
+    max-width: 505px;
+
+    margin-top: 39px;
+}
+
+.text h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.social-media {
+    display: flex;
+    gap: 40px;
+
+    margin-top: 61px;
+}
+
+.social-media img {
+    width: 50.65px;
+    height: 50.65px;
+}
+
+.vertical-line {
+    height: 522px;
+
+    border: 1px #B9B7B7 solid;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    margin-top: 39px;
+}
+
+.contact-form label {
+    font-size: 26px;
+}
+
+.input-base {
+    width: 391px;
+    height: 32px;
+
+    border: 1px #E4E4E4 solid;
+    border-radius: 40px;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+}
+
+.input-msg {
+    height: 229px;
+    width: 507px;
+
+    resize: none;
+}
+
+#name {
+    margin-left: 31px;
+}
+
+#msg {
+    margin-top: 12px;
+}
+
+#submit-btn {
+    width: 225px;
+    height: 34px;
+
+    color: white;
+    background-color:#6975E8;
+
+    border: none;
+    border-radius: 6px;
+
+    font-size: 14px;
+
+    align-self: flex-end;
+}

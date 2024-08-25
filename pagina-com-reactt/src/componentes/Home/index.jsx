@@ -2,10 +2,6 @@ import Boxes from './Boxes';
 import ConteudoPrincipal from './ContPrincipalHome';
 import './styles.css'
 
-
-
-
-
 function Home() {
     return (
         <>

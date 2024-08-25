@@ -1,6 +1,10 @@
+import Main from "./Main";
+
 function Contato() {
     return ( 
-        <h1>aaaaa</h1>
+        <body>
+            <Main/>
+        </body>
      );
 }
 

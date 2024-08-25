@@ -1,0 +1,56 @@
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 167px;
+
+    margin: 39px 0 38px 0;
+}
+
+.texto {
+    max-width: 577px;
+}
+
+.texto h1 {
+    font-size: 60px;
+}
+
+.texto p {
+    font-size: 18px;
+    margin: 32px 0;
+}
+
+.texto button {
+    width: 258px;
+    height: 66px;
+
+    border: none;
+    border-radius: 40px;
+
+    color: white;
+    background-color: #333333;
+
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.telas {
+    display: flex;
+    align-items: end;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.tela1 img {
+    width: 216px;
+    height: 469px;
+
+    border-radius: 30px;
+}
+
+.tela2 img {
+    width: 221px;
+    height: 479px;
+
+    border-radius: 30px;
+}
