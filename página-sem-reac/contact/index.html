@@ -3,43 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>PLATAFORMA DE VÍDEOS (Contato)</title>
 </head>
 <body>
-    <nav>
-        <a href="#" class="home">Home</a>
-        <a href="#" class="sobre">Sobre</a>
-        <a href="#" class="contato">Contato</a>
-    </nav>
-    
-    <div class="container">
-        <div class="info">
-            <p>Dúvidas e suporte, entre em contato:</p>
-            <div class="social">
-                <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
-                <a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
-                <a href="#"><img src="images/discor-icon.png" alt="Discord"></a>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#" id="contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="text">
+            <h1>Dúvidas e suporte, entre em contato:</h1>
+            <div class="social-media">
+                <img src="/WebDev-CP1-2S/img/twitter-icon.png" alt="">
+                <img src="/WebDev-CP1-2S/img/instagram-icon.png" alt="">
+                <img src="/WebDev-CP1-2S/img/discord-icon.png" alt="">
             </div>
         </div>
-        <div class="divider"></div>
-        <div class="form">
-            <div class="form-group">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome">
+
+        <div class="vertical-line"></div>
+
+        <form class="contact-form">
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" class="input-base"><br>
             </div>
 
-            <div class="form-group">
+            <div>
                 <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email" class="input-base"><br>
             </div>
 
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem"></textarea>
+            <div>
+                <label for="msg">Mensagem:</label><br>
+                <textarea name="msg" id="msg" class="input-base input-msg"></textarea>
+            </div>
 
-            <button type="submit">Enviar</button>
-        </div>
-    </div>
+            <input type="submit" value="Enviar" id="submit-btn">
+        </form>
+    </main>
 </body>
 </html>
