@@ -1,131 +1,117 @@
-body {
-    font-family: 'Roboto Mono', monospace;
+* {
     margin: 0;
     padding: 0;
-    background-color: white;
+    font-family: "Roboto Mono";
 }
 
+body {
+    margin-top: 55px;
+    margin-left: 112px;
+    margin-right: 124px;
+}
 
 nav {
     display: flex;
     justify-content: center;
-    padding: 9.6px 0;
-    background-color: white;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    gap: 46px;
 }
 
 nav a {
-    margin: 0 12px;
+    color: black;
+    font-size: 28px;
     text-decoration: none;
-    color: black;
-    font-size: 16.8px;
-    font-weight: 400;
-    line-height: 22.4px;
 }
 
+#contato {
+    text-decoration: underline;
+}
 
-.container {
+main {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 19.2px;
-    max-width: 600px;
-    margin: 0 auto;
-    position: relative;
+    justify-content: center;
+    gap: 110px;
+
+    margin-top: 96px;
 }
 
+.text {
+    max-width: 505px;
 
-.info {
-    width: 30%;
-    font-size: 28.8px;
+    margin-top: 39px;
+}
+
+.text h1 {
+    font-size: 60px;
     font-weight: 700;
-    line-height: 36px;
-    color: black;
-    text-align: left;
-    margin-top: 48px;
-    margin-left: -48px;
 }
 
-.social {
+.social-media {
     display: flex;
-    justify-content: left;
-    margin-top: 12.8px;
+    gap: 40px;
+
+    margin-top: 61px;
 }
 
-.social a {
-    margin: 0 6.4px;
+.social-media img {
+    width: 50.65px;
+    height: 50.65px;
 }
 
-.social img {
-    width: 19.2px;
-    height: 19.2px;
+.vertical-line {
+    height: 522px;
+
+    border: 1px #B9B7B7 solid;
 }
 
-
-.divider {
-    width: 1.6px;
-    height: calc(80% + 40px);
-    background-color: black;
-    position: absolute;
-    top: 64px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-
-.form {
-    width: 45%;
-    margin-top: 48px;
+.contact-form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 32px;
+
+    margin-top: 39px;
 }
 
-.form-group {
-    display: flex;
-    align-items: center;
+.contact-form label {
+    font-size: 26px;
 }
 
-.form label {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    width: 100px;
+.input-base {
+    width: 391px;
+    height: 32px;
+
+    border: 1px #E4E4E4 solid;
+    border-radius: 40px;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
 }
 
-.form input {
-    width: calc(100% - 110px);
-    padding: 10px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-family: 'Roboto Mono', monospace;
-}
+.input-msg {
+    height: 229px;
+    width: 507px;
 
-.form textarea {
-    width: 100%;
-    height: 120px;
-    padding: 10px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-family: 'Roboto Mono', monospace;
     resize: none;
 }
 
-.form button {
-    width: 128px;
-    height: 21.6px;
-    background-color: #6366f1;
-    color: white;
-    font-size: 9.6px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    margin-top: 9.6px;
+#name {
+    margin-left: 31px;
 }
 
-.form button:hover {
-    background-color: #4f46e5;
+#msg {
+    margin-top: 12px;
+}
+
+#submit-btn {
+    width: 225px;
+    height: 34px;
+
+    color: white;
+    background-color:#6975E8;
+
+    border: none;
+    border-radius: 6px;
+
+    font-size: 14px;
+
+    align-self: flex-end;
 }
