@@ -30,7 +30,7 @@ function Main() {
                     </div>
 
                     <div>
-                        <label for="msg">Mensagem:</label>
+                        <label for="msg">Mensagem:</label><br/>
                         <textarea name="msg" id="msg" class="input-base input-msg"></textarea>
                     </div>
 
