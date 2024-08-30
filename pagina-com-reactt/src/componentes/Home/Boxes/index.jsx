@@ -5,6 +5,25 @@ import LogoYoutube from './assets/youtube.png'
 import LogoTiktok from './assets/tiktok.png'
 
 function Boxes() {
+
+    function CardInfo( { box } ) {
+
+        const infosBox = [
+            {
+                classeNomePai: ,
+                classeNomeNumEIMG: ,
+                numero: ,
+                logo: ,
+                textoAlternativo: ,
+                nomeDaRede: ,
+                textoDaRede: ,
+
+            }
+        ]
+
+    }
+
+
     return ( 
         <div className="container-boxes">
                     <div className="box-youtube">
