@@ -5,7 +5,7 @@ export default function Box( { data } ) {
            {data.map(box => (
 
             <div className={box.classeNomePai}>
-                <div className={box.classeNomeNumEIMG}>
+                <div className= "numero-icone">
                     <h1>{box.numero}</h1>
                     <img src={box.logo} alt={box.textoAlternativo}/>
                 </div>
