@@ -3,7 +3,10 @@
     justify-content: center;
     align-items: center;
     gap: 46px;
+
+    margin-top: 60px;
 }
+
 .link {
     font-size: 28px;
     width: 116px;

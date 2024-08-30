@@ -1,8 +1,7 @@
-import Boxes from './Boxes';
-import ConteudoPrincipal from './ContPrincipalHome';
-import './styles.css'
+import Boxes from "../componentes/Home/Boxes";
+import ConteudoPrincipal from "../componentes/Home/ContPrincipalHome";
 
-function Home() {
+export default function Home() {
     return (
         <>
             <div className='container-principal'>
@@ -12,5 +11,3 @@ function Home() {
         </>
      );
 }
-
-export default Home;
